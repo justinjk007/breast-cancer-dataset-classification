@@ -1,7 +1,7 @@
 import numpy as np
 
-malignant_label = np.array([0])
-benign_label = np.array([1])
+malignant_label = np.array([1,0])
+benign_label = np.array([0,1])
 
 # the outputs or the labels still needs to an array becuase other wise we can't do matrix multiplications
 training_input = np.array([
@@ -2296,9 +2296,7 @@ testing_input = np.array([
 testing_input_mod = testing_input[:, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]].tolist()
 
 testing_output = []
-for i in range(15):
-    testing_output.append("setosa")
-for i in range(15):
-    testing_output.append("versicolor")
-for i in range(15):
-    testing_output.append("virginica")
+for i in range(107):
+    testing_output.append("benign")
+for i in range(63):
+    testing_output.append("malignant")

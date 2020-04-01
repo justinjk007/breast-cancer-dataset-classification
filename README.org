@@ -42,3 +42,4 @@ python main.py
 - http://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
 - https://www.neuraldesigner.com/learning/tutorials/neural-network#ClassificationNeuralNetworks
 - https://rstudio-pubs-static.s3.amazonaws.com/344010_1f4d6691092d4544bfbddb092e7223d2.html
+- https://pytorch.org/docs/stable/torch.html#torch.round
