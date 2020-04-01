@@ -1,8 +1,7 @@
 import numpy as np
 
-iris_setosa_label = np.array([1, 0, 0])
-iris_versicolor_label = np.array([0, 1, 0])
-iris_virginica_label = np.array([0, 0, 1])
+malignant_label = np.array([0])
+benign_label = np.array([1])
 
 training_input = np.array([
     [4.8, 3.4, 1.6, 0.2, iris_setosa_label],

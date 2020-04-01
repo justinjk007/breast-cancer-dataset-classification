@@ -32,7 +32,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 #+end_src
 
-To run the sript
+To run the script
 #+begin_src sh
 python main.py
 #+end_src
