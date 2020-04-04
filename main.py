@@ -58,7 +58,7 @@ def main():
         ANN.train(_input, _output)
 
     torch.save(ANN, "algo1.weights")
-    # ANN = torch.load("1_error.weights")
+    # ANN = torch.load("algo1.weights")
     test_trained_network(ANN)
     ax.plot(gene_array, loss_array)
     plt.show()

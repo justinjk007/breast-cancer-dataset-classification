@@ -43,3 +43,4 @@ python main.py
 - https://www.neuraldesigner.com/learning/tutorials/neural-network#ClassificationNeuralNetworks
 - https://rstudio-pubs-static.s3.amazonaws.com/344010_1f4d6691092d4544bfbddb092e7223d2.html
 - https://pytorch.org/docs/stable/torch.html#torch.round
+- https://medium.com/analytics-vidhya/machine-learning-for-unbalanced-datasets-using-neural-networks-b0fc28ef6261
