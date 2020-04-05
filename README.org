@@ -44,3 +44,5 @@ python main.py
 - https://rstudio-pubs-static.s3.amazonaws.com/344010_1f4d6691092d4544bfbddb092e7223d2.html
 - https://pytorch.org/docs/stable/torch.html#torch.round
 - https://medium.com/analytics-vidhya/machine-learning-for-unbalanced-datasets-using-neural-networks-b0fc28ef6261
+- https://medium.com/fse-ai/pytorch-909e81f54ee1
+- https://stanford.edu/~shervine/blog/pytorch-how-to-generate-data-parallel

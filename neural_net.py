@@ -15,11 +15,17 @@ class NeuralNetwork(nn.Module):
         self.w2 = torch.randn(self.hidden1_num, self.hidden2_num)
         self.w3 = torch.randn(self.hidden2_num, self.output_num)
 
+        # Define relu activation and LogSoftmax output
+        self.relu = nn.ReLU()
+        self.LogSoftmax = nn.LogSoftmax(dim=1)
+
     def forward(self, _input):
         self.z = torch.matmul(_input, self.w1)  # matrix multiplication
         self.z2 = self.sigmoid(self.z)  # activation function
+
         self.z3 = torch.matmul(self.z2, self.w2)  # apply weights on hidden 1
         self.z4 = self.sigmoid(self.z3)  # activation function
+
         self.z5 = torch.matmul(self.z4, self.w3)  # apply weights on hidden 2
         output = self.sigmoid(self.z5)  # activation function
         return output
