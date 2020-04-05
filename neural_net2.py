@@ -15,6 +15,7 @@ class NeuralNetwork(nn.Module):
 
         # Define relu activation and LogSoftmax output
         self.relu = nn.ReLU()
+        self.sig = nn.Sigmoid()
         self.LogSoftmax = nn.LogSoftmax(dim=1)
 
     def forward(self, x):

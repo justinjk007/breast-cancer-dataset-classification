@@ -47,7 +47,7 @@ def main():
     # This section is for plotting ##############################
 
     # input,output,hidden layer size
-    ANN = NeuralNetwork(i=10, h1=5, h2=2, o=2)
+    ANN = NeuralNetwork(i=10, h1=6, h2=2, o=2)
     # weight training
     for i in range(15000):
         # mean sum squared error
